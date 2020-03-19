@@ -3,7 +3,7 @@ import nltk
 from nltk.stem.lancaster import LancasterStemmer
 stemmer = LancasterStemmer()
 import tensorflow as tf
-
+# this is note 
 from tensorflow import keras
 
 from tensorflow import keras
