@@ -5,8 +5,8 @@ import tensorflow as tf
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 import numpy as np
-from tensorflow import karas
-from keras.models import load_model
+# from tensorflow import karas
+from tensorflow.keras.models import load_model
 model = load_model('chatbot_model.h5')
 
 # import requests
